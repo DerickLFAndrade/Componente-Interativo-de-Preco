@@ -1,0 +1,1 @@
+<h2>Componente interativo de preço</h2>
