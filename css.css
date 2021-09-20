@@ -1,0 +1,347 @@
+ @media screen and (max-width: 575px ){
+    
+ 
+ #logo2 {
+    position: absolute;
+    margin-left: 320px;
+    margin-top: 150px;
+    width: 300px;
+}
+#logo1 {
+    position: absolute;
+    margin-left: 10px;
+    height: 800px;
+    width: 850px;
+}
+#textoLogo {
+    position: absolute;
+     margin-left: 150px;
+    margin-top: 250px;
+    width: 700px;
+    
+}
+#textoLogo h1 {
+font-size: 30pt;
+font-family: Manrope;
+}
+
+#textoLogo2 {
+    position: absolute;
+     margin-left: 280px;
+    margin-top: 310px;
+    width: 500px;
+    
+}
+#textoLogo2 h1 {
+    color: hsl(225, 20%, 60%) ;
+font-size: 20pt;
+font-family: Manrope;
+}
+
+#containerSecundario {
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 100px;
+    border-radius: 20px;
+    width: 700px;
+    height: 900px;
+    background-color: white;
+}
+ #texto3 p{
+     margin-top: 80px;
+    text-align: center;
+    color: hsl(225, 20%, 60%) ;
+    font-size: 22pt;
+    font-family: Manrope;
+  
+ }
+ .progress {
+     background: hsl(174, 86%, 45%);
+     border-radius: 10px;
+     width: 600px;
+     margin-top: 80px;
+     height: 10px;
+    
+ }
+  #contentar {
+     width: 600px;
+     height: 35px;
+     margin-top: -10px;
+ }
+ #areaMouse {
+    position: absolute;
+    border: 1px solid;
+     border-radius: 50px;
+     margin-top: -25px;
+     width: 60px;
+     height:60px;
+     margin-left: 0px;
+     background-color: hsl(174, 86%, 45%);
+     cursor: pointer;
+ }
+
+
+#icoBarra {
+     position: absolute;
+     margin-top: 17px;
+     margin-left:8px;
+     
+ }
+}
+
+ @media screen and (max-width: 5000px ){
+    
+ body {
+     background-color:  hsl(174, 79%, 85%) ;
+ }
+ #logo2 {
+    position: absolute;
+    margin-left: 480px;
+    margin-top: 50px;
+    width: 250px;
+}
+#logo1 {
+    position: absolute;
+    margin-left: -250px;
+    height: 50%;
+    width: 95%;
+}
+#textoLogo {
+    position: absolute;
+     margin-left: 550px;
+    margin-top: 150px;
+    width: 700px;
+    
+}
+#textoLogo h1 {
+font-size: 30pt;
+font-family: Manrope;
+}
+
+#textoLogo2 {
+    position: absolute;
+     margin-left: 650px;
+    margin-top: 210px;
+    width: 500px;
+   
+    
+}
+#textoLogo2 h1 {
+    color: hsl(225, 20%, 60%) ;
+font-size: 20pt;
+font-family: Manrope;
+}
+
+#containerSecundario {
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 30%;
+    
+    border-radius: 20px;
+    width: 750px;
+    height: 500px;
+    background-color: white;
+}
+ #texto3 p{
+     margin-top: 80px;
+    margin-left: 50px;
+    color: hsl(225, 20%, 60%) ;
+    font-size: 16pt;
+    font-family: Manrope;
+  
+ }
+ #formatado {
+     position: absolute;
+     color: hsl(220, 3%, 17%) ;
+    font-size: 40pt;
+    margin-left: 270px;
+    margin-top: -65px;
+    font-family: Manrope;
+ }
+  #texto4 h1{
+    
+    color: hsl(220, 3%, 17%) ;
+    font-size: 40pt;
+    width: 500px;
+    margin-top: 8px;
+  
+ }
+   #formatada{
+    position: absolute;
+    margin-left: 440px;
+    margin-top: -40px;
+    color: hsl(225, 20%, 60%) ;
+    font-size: 20pt;
+    font-family: Manrope;
+  
+ }
+ #texto5 h4 {
+     color: hsl(225, 20%, 60%) ;
+    font-size: 20pt;
+ }
+ @media screen and (max-width: 5000px) {
+     
+ }
+ 
+.slider {
+    
+  -webkit-appearance: none;
+  width: 100%;
+  height: 12px;
+ background: hsl(174, 86%, 45%);
+  outline: none;
+  opacity: 0.7;
+
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+  margin-top: 50px;
+  border-radius: 20px;
+}
+
+.slider:hover {
+  opacity: 1;
+  background: hsl(174, 86%, 45%);
+}
+
+.slider::-webkit-slider-thumb {
+    
+  -webkit-appearance: none;
+  appearance: none;
+  border-radius: 35px;
+  width: 45px;
+  height: 45px;
+   background: hsl(174, 86%, 45%);
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    
+  width: 25px;
+  height: 25px;
+  background: #04AA6D;
+  cursor: pointer;
+}
+
+ #areaMouse {
+    position: absolute;
+    
+     border-radius: 50px;
+     margin-top: -20px;
+     width: 50px;
+     height:50px;
+     
+     background-color: hsl(174, 86%, 45%);
+     cursor: pointer;
+ }
+
+
+#icoBarra {
+     position: absolute;
+     margin-top: 12px;
+     margin-left:5px;
+     
+ }
+}
+
+.switch {
+  position: absolute;
+  margin-left: -9999px;
+  visibility: hidden;
+}
+
+.switch + label {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  outline: none;
+  user-select: none;
+}
+.switch--shadow + label {
+  padding: 2px;
+  margin-left: 250px;
+  width: 70px;
+  height: 30px;
+  background-color: #dddddd;
+  border-radius: 60px;
+}
+.switch--shadow + label:before,
+.switch--shadow + label:after {
+  display: block;
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  bottom: 1px;
+  content: '';
+}
+.switch--shadow + label:before {
+  right: 1px;
+  background-color: #f1f1f1;
+  border-radius: 60px;
+  transition: all 0.4s;
+}
+.switch--shadow + label:after {
+  width: 32px;
+  background-color: #fff;
+  border-radius: 100%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  transition: all 0.4s;
+}
+.switch--shadow:checked + label:before {
+  background-color: #8ce196;
+}
+.switch--shadow:checked + label:after {
+  transform: translateX(36px);
+}
+
+
+#textoB{
+ margin-top: 30px;
+
+ color: hsl(225, 20%, 60%) ;
+
+ font-family: Manrope;
+}
+
+#fm1 h4{
+    margin-left: 50px;
+     font-size: 15pt;
+    position: absolute;
+
+}
+#fm2 h4{
+     font-size: 15pt;
+    position: absolute;
+    margin-left: 350px;
+    
+}
+#fm3 h4{
+    position: absolute;
+    height: 22px;
+    width: 150px;
+   
+   border-radius: 10px;
+    background: rgb(235, 228, 228);
+    text-align: center;
+    font-size: 12pt;
+    position: absolute;
+    margin-left: 520px;
+    color: darkorange;
+    margin-top: 30px;
+}
+
+#lista {
+  
+ color: hsl(225, 20%, 60%) ;
+font-size: 15pt;
+ font-family: Manrope;  
+}
+#btn {
+    position: absolute;
+    font-family: Manrope; 
+    background: hsl(227, 35%, 25%);
+    color: rgb(243, 243, 243);
+    margin-left: 500px;
+    margin-top: -80px;
+    border-radius: 30px;
+    height: 50px;
+}
