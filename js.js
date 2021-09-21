@@ -34,14 +34,14 @@ slider.oninput = function () { //função slider 1
 
 
   if (slider.value == 0) {
-    mes.style.marginLeft = '130px'
+    mes.style.marginLeft = '120px'
 
   } else if (slider.value == 50) {
-    mes.style.marginLeft = '150px'
-  } else if (slider.value >= 50 && slider.value < 1000) {
-    mes.style.marginLeft = '170px'
+    mes.style.marginLeft = '120px'
+  } else if (slider.value >= 50 && slider.value <= 1000) {
+    mes.style.marginLeft = '120px'
   } else if (slider.value >= 1000) {
-    mes.style.marginLeft = '155px'
+    mes.style.marginLeft = '120px'
   }
 
   
@@ -69,14 +69,14 @@ function barra2() { //slider2
     var valor1N = Number(valor1)
     output.innerHTML = `${valor1N.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}`
     if (slider2.value == 0) {
-      mes.style.marginLeft = '130px'
+      mes.style.marginLeft = '120px'
 
     } else if (slider2.value >= 449 && slider2.value <= 899) {
-      mes.style.marginLeft = '170px'
+      mes.style.marginLeft = '120px'
     } else if (slider2.value >= 899 && slider2.value <= 1000) {
-      mes.style.marginLeft = '170px'
+      mes.style.marginLeft = '120px'
     } else if (slider2.value >= 1349) {
-      mes.style.marginLeft = '195px'
+      mes.style.marginLeft = '120px'
     }
 
 

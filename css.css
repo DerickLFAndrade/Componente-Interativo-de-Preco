@@ -1,41 +1,9 @@
- @media screen and (max-width: 518px ){
+ @media screen and (max-width: 578px ){
   body {
      background-color:  hsl(176, 38%, 91%) ;
  }
 
- #logo2 {
-    position: absolute;
-    margin-left: 175px;
-    margin-top: 200px;
-    width: 150px;
-}
-
-#textoLogo {
-    position: absolute;
-     text-align: center;
-    margin-top: 50px;
-    width: 400px;
-    
-}
-#textoLogo h1 {
-font-size: 18pt;
-font-family: Manrope;
-}
-
-#textoLogo2 {
-  text-align: center;
-    position: absolute;
-     
-    margin-top: 80px;
-    width: 500px;
-   
-    
-}
-#textoLogo2 h1 {
-    color: hsl(225, 20%, 60%) ;
-font-size: 15pt;
-font-family: Manrope;
-}
+ 
 
 #containerSecundario {
     position: absolute;
@@ -280,7 +248,7 @@ margin-top: 170px;
     position: absolute;
     margin-left: 320px;
     color: darkorange;
-    margin-top: 175px;
+    margin-top: 20px;
 }
 
 #lista {
@@ -304,45 +272,12 @@ font-size: 15pt;
 
 }
 
- @media screen and (min-width: 519px ){
+ @media screen and (min-width: 579px ){
   body {
      background-color:  hsl(176, 38%, 91%) ;
  }
 
- #logo2 {
-    
-    margin-left: 30%;
-    margin-top: 2%;
-    width: 15%;
-}
-
-#textoLogo {
-    position: absolute;
-     text-align: center;
-    margin-top: 50px;
-    width: 400px;
-    margin-left: 20%;
-    
-}
-#textoLogo h1 {
-font-size: 18pt;
-font-family: Manrope;
-}
-
-#textoLogo2 {
-  text-align: center;
-    position: absolute;
-     
-    margin-top: 80px;
-    width: 500px;
-   
-    
-}
-#textoLogo2 h1 {
-    color: hsl(225, 20%, 60%) ;
-font-size: 15pt;
-font-family: Manrope;
-}
+ 
 
 #containerSecundario {
     position: absolute;
@@ -356,43 +291,40 @@ font-family: Manrope;
 }
  #texto3 p{
      margin-top: 40px;
-    margin-left: 10%;
+    margin-left: 5%;
     color: hsl(225, 20%, 60%) ;
-    font-size: 12pt;
+    font-size: 22pt;
     font-family: Manrope;
   
  }
  #formatado {
-     position: absolute;
+    position: absolute;
      color: hsl(220, 3%, 17%) ;
-    font-size: 30pt;
+    font-size: 35pt;
     margin-left: 40%;
     margin-top: -65px;
     font-family: Manrope;
  }
   #texto4 h1{
-    position: absolute;
+    
     color: hsl(220, 3%, 17%) ;
-    font-size: 40pt;
-    width: 300px;
+    font-size: 50pt;
+    width: 400px;
     margin-top: 8px;
-    margin-left: 50%;
+    margin-left: 55%;
   
  }
- #texto5 {
-  position: absolute;
-    margin-left: 100%;
-    margin-top: -40px;
+ #formatada {
+  
+   position: absolute;
     color: hsl(225, 20%, 60%) ;
-    font-size: 20pt;
     font-family: Manrope;
+    margin-left: -122px;
+    margin-top: 25px;
  }
-   
- #texto5 h4 {
-   margin-left: 15%;
-     color: hsl(225, 20%, 60%) ;
-    font-size: 20pt;
- }
+#texto5 {
+  font-size: 22pt;
+} 
 
 
  #myRange {
@@ -559,7 +491,7 @@ position: absolute;
 
 
 #textoB{
- margin-left: 20%;
+ margin-left: 30%;
 margin-top: 170px;
  color: hsl(225, 20%, 60%) ;
 
@@ -579,7 +511,7 @@ margin-top: 170px;
     
 }
 #fm3 h4{
-   
+   position: absolute;
     height: 20px;
     width: 150px;
    
@@ -588,7 +520,8 @@ margin-top: 170px;
     text-align: center;
     font-size: 10pt;
     position: absolute;
-    margin-left: 50%;
+    
+    margin-left: 250px;
     color: darkorange;
     margin-top: 25px;
 }
