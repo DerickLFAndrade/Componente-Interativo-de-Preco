@@ -2,7 +2,7 @@ var slider = document.getElementById("myRange");
 var fm3 = document.getElementById("desconto")
 var output = document.getElementById("texto4");
 var output2 = document.getElementById("texto5");
-var mes = document.getElementById("formatada");
+var mes = document.getElementById("texto5");
 var bot = document.getElementById("switch-shadow")
 //output.innerHTML = slider.value; // Display the default slider value
 var slider2 = document.getElementById("myRange2");
@@ -14,7 +14,7 @@ function iniciar() {
 this.slider.oninput()
   if (slider.value == 250) {
     output.innerHTML = 'R$ 0,00'
-    mes.style.marginLeft = '440px'
+    mes.style.marginLeft = '125px'
    
   }
  
@@ -34,14 +34,14 @@ slider.oninput = function () { //função slider 1
 
 
   if (slider.value == 0) {
-    mes.style.marginLeft = '440px'
+    mes.style.marginLeft = '130px'
 
   } else if (slider.value == 50) {
-    mes.style.marginLeft = '470px'
+    mes.style.marginLeft = '150px'
   } else if (slider.value >= 50 && slider.value < 1000) {
-    mes.style.marginLeft = '490px'
+    mes.style.marginLeft = '170px'
   } else if (slider.value >= 1000) {
-    mes.style.marginLeft = '530px'
+    mes.style.marginLeft = '155px'
   }
 
   
@@ -61,7 +61,7 @@ function barra2() { //slider2
   slider.style.visibility = 'hidden'
 
   slider2.oninput = true
-  slider2.style.visibility = ''
+  slider2.style.visibility = 'visible'
 
 
   slider2.oninput = function () {
@@ -69,14 +69,14 @@ function barra2() { //slider2
     var valor1N = Number(valor1)
     output.innerHTML = `${valor1N.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}`
     if (slider2.value == 0) {
-      mes.style.marginLeft = '440px'
+      mes.style.marginLeft = '130px'
 
     } else if (slider2.value >= 449 && slider2.value <= 899) {
-      mes.style.marginLeft = '490px'
+      mes.style.marginLeft = '170px'
     } else if (slider2.value >= 899 && slider2.value <= 1000) {
-      mes.style.marginLeft = '490px'
+      mes.style.marginLeft = '170px'
     } else if (slider2.value >= 1349) {
-      mes.style.marginLeft = '530px'
+      mes.style.marginLeft = '195px'
     }
 
 
