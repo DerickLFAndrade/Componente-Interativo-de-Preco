@@ -1,69 +1,85 @@
- @media screen and (max-width: 578px ){
+ @media screen and (max-width: 1157px ){
   body {
      background-color:  hsl(176, 38%, 91%) ;
  }
 
- 
+
 
 #containerSecundario {
     position: absolute;
-    margin-top: 170px;
-   
-    margin-left: 1%;
+  
+   margin-top: 20px;
+   margin-left: 10%;
+  
     border-radius: 20px;
-    width: 520px;
+    width: 400px;
     height: 700px;
     background-color: white;
 }
- #texto3 p{
-     margin-top: 40px;
-    margin-left: 10px;
+ #logo {
+  position: absolute;
+
+  margin-left: 50px;
+  border-radius: 200px;
+ 
+ }
+ #view {
+   width: 400px;
+     margin-top: 180px;
+    margin-left: 5%;
     color: hsl(225, 20%, 60%) ;
-    font-size: 12pt;
+    font-size: 20pt;
     font-family: Manrope;
   
  }
+ #texto3 h1{
+   
+    margin-top: 180px;
+   
+    color: hsl(225, 20%, 60%) ;
+    font-size: 22pt;
+    font-family: Manrope;
+ }
  #formatado {
-     position: absolute;
+    position: absolute;
      color: hsl(220, 3%, 17%) ;
-    font-size: 30pt;
-    margin-left: 170px;
-    margin-top: -65px;
+    font-size: 25pt;
+    margin-left: 28%;
+    
     font-family: Manrope;
  }
   #texto4 h1{
     
     color: hsl(220, 3%, 17%) ;
-    font-size: 40pt;
-    width: 500px;
+    font-size: 50pt;
+    width: 400px;
     margin-top: 8px;
-    margin-left: 10px;
+    margin-left: 55%;
   
  }
-   #texto5{
-    position: absolute;
-    margin-left: 130px;
-    margin-top: -40px;
+ #formatada {
+  
+   position: absolute;
     color: hsl(225, 20%, 60%) ;
-    font-size: 20pt;
     font-family: Manrope;
-  
+    margin-left: -122px;
+    margin-top: 12px;
  }
- #texto5 h4 {
-   margin-left:245px;
-     color: hsl(225, 20%, 60%) ;
-    font-size: 20pt;
- }
+#texto5 {
+  font-size: 22pt;
+} 
+
 
 
  #myRange {
   position: absolute;
   -webkit-appearance: none;
-  width: 86.9%;
+  width: 76.9%;
   height: 12px;
  background: hsl(174, 86%, 45%);
   outline: none;
   opacity: 0.7;
+  margin-left: 35px;
   
 
   -webkit-transition: .2s;
@@ -72,10 +88,25 @@
   border-radius: 20px;
 }
  
+#myRange2 {
+    position: absolute;
+  -webkit-appearance: none;
+  width: 76.9%;
+  height: 12px;
+ background: hsl(174, 86%, 45%);
+  outline: none;
+  opacity: 0.7;
+margin-left: 35px;
+
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+  margin-top: 80px;
+  border-radius: 20px;
+}
 .slider {
   
   -webkit-appearance: none;
-  width: 90%;
+  width: 75%;
   height: 12px;
  background: hsl(174, 86%, 45%);
   outline: none;
@@ -112,21 +143,7 @@
   cursor: pointer;
 }
 
-#myRange2 {
-    position: absolute;
-  -webkit-appearance: none;
-  width: 86.9%;
-  height: 12px;
- background: hsl(174, 86%, 45%);
-  outline: none;
-  opacity: 0.7;
-margin-left: 2px;
 
-  -webkit-transition: .2s;
-  transition: opacity .2s;
-  margin-top: 80px;
-  border-radius: 20px;
-}
 
 .slider:hover {
   opacity: 1;
@@ -151,18 +168,6 @@ margin-left: 2px;
   background: #04AA6D;
   cursor: pointer;
 }
-
- #areaMouse {
-    position: absolute;
-    
-     border-radius: 50px;
-     margin-top: -20px;
-     width: 50px;
-     height:50px;
-     
-     background-color: hsl(174, 86%, 45%);
-     cursor: pointer;
- }
 
 .switch {
 position: absolute;
@@ -217,15 +222,15 @@ position: absolute;
 
 
 #textoB{
- margin-left: 20px;
-margin-top: 170px;
+ margin-left: -15px;
+margin-top: 150px;
  color: hsl(225, 20%, 60%) ;
 
  font-family: Manrope;
 }
 
 #fm1 h4{
-    margin-left: 10px;
+    margin-left: 5px;
      font-size: 12pt;
     position: absolute;
 
@@ -233,7 +238,7 @@ margin-top: 170px;
 #fm2 h4{
      font-size: 12pt;
     position: absolute;
-    margin-left: 260px;
+    margin-left: 250px;
     
 }
 #fm3 h4{
@@ -246,14 +251,14 @@ margin-top: 170px;
     text-align: center;
     font-size: 10pt;
     position: absolute;
-    margin-left: 320px;
+    margin-left: 240px;
     color: darkorange;
     margin-top: 20px;
 }
 
 #lista {
-  margin-top: 60px;
- margin-left: 100px;
+  margin-top: 10px;
+ margin-left: -15px;
  color: hsl(225, 20%, 60%) ;
 font-size: 15pt;
  font-family: Manrope;  
@@ -264,15 +269,15 @@ font-size: 15pt;
     background: hsl(227, 35%, 25%);
     color: rgb(243, 243, 243);
     text-align: center;
-    margin-left: 130px;
-    margin-top: 50px;
+    margin-left:100px;
+    margin-top: 20px;
     border-radius: 30px;
     height: 50px;
 }
 
 }
 
- @media screen and (min-width: 579px ){
+ @media screen and (min-width: 1158px ){
   body {
      background-color:  hsl(176, 38%, 91%) ;
  }
@@ -281,28 +286,49 @@ font-size: 15pt;
 
 #containerSecundario {
     position: absolute;
-    margin-top: 170px;
+    margin-top: 50px;
    
-    margin-left: 2%;
+   margin-left: 200px;
     border-radius: 20px;
-    width: 95%;
-    height: 700px;
+    width: 40%;
+    height: 800px;
     background-color: white;
+}
+#logo {
+  position: absolute;
+  margin-left: 150px;
 }
  #texto3 p{
      margin-top: 40px;
-    margin-left: 5%;
+    margin-left: 30%;
     color: hsl(225, 20%, 60%) ;
     font-size: 22pt;
     font-family: Manrope;
   
  }
+ #view {
+   width: 400px;
+     margin-top: 170px;
+    margin-left:10%;
+    color: hsl(225, 20%, 60%) ;
+    font-size: 25pt;
+    font-family: Manrope;
+  
+ }
+ #texto3 h1{
+   
+    margin-top: 180px;
+   
+    color: hsl(225, 20%, 60%) ;
+    font-size: 25pt;
+    font-family: Manrope;
+ }
  #formatado {
     position: absolute;
      color: hsl(220, 3%, 17%) ;
     font-size: 35pt;
-    margin-left: 40%;
-    margin-top: -65px;
+    margin-left: 30%;
+    margin-top: -20px;
     font-family: Manrope;
  }
   #texto4 h1{
@@ -330,15 +356,26 @@ font-size: 15pt;
  #myRange {
   position: absolute;
   -webkit-appearance: none;
-  width: 75%;
+  width: 70%;
   margin-left: 10%;
   height: 12px;
  background: hsl(174, 86%, 45%);
   outline: none;
   opacity: 0.7;
-  
- 
-  
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+  margin-top: 80px;
+  border-radius: 20px;
+}
+#myRange2 {
+  position: absolute;
+  -webkit-appearance: none;
+  width: 70%;
+  height: 12px;
+ background: hsl(174, 86%, 45%);
+  outline: none;
+  opacity: 0.7;
+margin-left: 10%;
 
   -webkit-transition: .2s;
   transition: opacity .2s;
@@ -386,21 +423,7 @@ font-size: 15pt;
   cursor: pointer;
 }
 
-#myRange2 {
-    position: absolute;
-  -webkit-appearance: none;
-  width: 75%;
-  height: 12px;
- background: hsl(174, 86%, 45%);
-  outline: none;
-  opacity: 0.7;
-margin-left: 10%;
 
-  -webkit-transition: .2s;
-  transition: opacity .2s;
-  margin-top: 80px;
-  border-radius: 20px;
-}
 
 .slider:hover {
   opacity: 1;
@@ -426,17 +449,7 @@ margin-left: 10%;
   cursor: pointer;
 }
 
- #areaMouse {
-    position: absolute;
-    
-     border-radius: 50px;
-     margin-top: -20px;
-     width: 50px;
-     height:50px;
-     
-     background-color: hsl(174, 86%, 45%);
-     cursor: pointer;
- }
+
 
 .switch {
 position: absolute;
@@ -491,7 +504,7 @@ position: absolute;
 
 
 #textoB{
- margin-left: 30%;
+ margin-left: 10%;
 margin-top: 170px;
  color: hsl(225, 20%, 60%) ;
 

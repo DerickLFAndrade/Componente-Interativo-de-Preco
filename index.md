@@ -18,33 +18,26 @@
 </head>
 
 <body>
-   
 
-        <div class="container-fluid" id="containerPrincipal">
-            <div class="navbar" id="nav">
-                <img src="_imagens/pattern-circles.svg" id="logo2">
-                    </div>
-                    <span id="textoLogo">
-                <h1><b>Preços simples com base no tráfego</b></h1>
-                    </span>
-                    <span id="textoLogo2">
-                <h1><b>Se inscreva por 30 dias para teste.</b></h1>
-                <h1><b>Não requer cartão de crédito.</b></h1>
-                    </span>
-            </div>
+
+        <div class="container" id="containerPrincipal">
+           
             
                 <div class="container-fluid" id="containerSecundario">
-            <span id="texto3">
-                <p><b>100K DE VIEWS</b></p>
-            </span>
+                    <img src="logo.jpg" alt="logo" width="250px" id="logo">
+
+            <div id="view">
+                <span id="texto3">
+                    <h1><b>100K  DE  VIEWS</b></h1>
+                </span>
+            </div>
             <div id="formatado">
                 <span id="texto4">
-                    <h1>R$ 0,00</h1>
-                    
-                        
-                    
+                    <h1>R$ 0,00</h1>   
                 </span>
-                <h4 id="texto5">/mês</h4>
+                <span  id="formatada">
+                    <h4 id="texto5">/mês</h4>
+                </span>
             </div>
                 
             
@@ -74,9 +67,9 @@
             <hr>
             <div id="lista">
                 <ul>
-                    <img src="_imagens/icon-check.svg"> Sites ilimitados <br>
-                    <img src="_imagens/icon-check.svg"> Propriedade de dados <br>
-                    <img src="_imagens/icon-check.svg"> Relatórios de e-mail
+                    <img src="icon-check.svg"> Sites ilimitados <br>
+                    <img src="icon-check.svg"> Propriedade de dados <br>
+                    <img src="icon-check.svg"> Relatórios de e-mail
                 </ul>
             </div>
                 <button id="btn" type="button" class="btn btn-primary btn-sm"><b>Começar meu teste gratuito</b></button>
