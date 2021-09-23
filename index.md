@@ -20,7 +20,7 @@
 <body>
 
 
-        <div class="container" id="containerPrincipal">
+        <div class="container-fluid" id="containerPrincipal">
            
             
                 <div class="container-fluid" id="containerSecundario">
@@ -72,7 +72,7 @@
                     <img src="icon-check.svg"> Relatórios de e-mail
                 </ul>
             </div>
-                <button id="btn" type="button" class="btn btn-primary btn-sm"><b>Começar meu teste gratuito</b></button>
+                <a href="pag2.html"><button id="btn" type="button" class="btn btn-primary btn-sm"><b>Começar meu teste gratuito</b></button></a>
             
                 </div>
         </div>

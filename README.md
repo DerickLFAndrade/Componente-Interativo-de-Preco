@@ -13,6 +13,10 @@
 | - Teste de todas as funcionalidades e correção de erros; |    22/09     | **Concluido** |    23/09     |
 | - Entrega do projeto;                    |    22/09     | **Concluido** |    23/09     |
 
+## Tecnologias utilizadas: 
 
+- HTML;
+- CSS;
+- JavaScript.
 
 ### Resultado:  <https://dericklfandrade.github.io/Componente-Interativo-de-Preco/>
