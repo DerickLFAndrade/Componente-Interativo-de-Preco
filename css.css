@@ -33,22 +33,22 @@
    margin-top: 5%;
   
     border-radius: 20px;
-    width: 90%;
+    width: 72%;
     height: 600px;
     background-color: white;
     margin-bottom: 0%;
 }
  #logo {
-   margin-top: 5%;
+   margin-top: 2%;
   position: absolute;
-  width: 35%;
-  margin-left: 30%;
+  width: 55%;
+  margin-left: 25%;
   border-radius: 200px;
  
  }
  #view {
-   width: 50%;
-     margin-top: 180px;
+   width: 100%;
+     margin-top: 100px;
     margin-left: 5%;
     color: hsl(225, 20%, 60%) ;
     font-size: 90%;
@@ -66,8 +66,8 @@
  #formatado {
     position: absolute;
      color: hsl(220, 3%, 17%) ;
-    font-size: 200%;
-    margin-left: 28%;
+    font-size: 150%;
+    margin-left: 18%;
     width: 80%;
     
     font-family: Manrope;
@@ -75,22 +75,22 @@
   #texto4 h1{
     
     color: hsl(220, 3%, 17%) ;
-    font-size: 300%;
+    font-size: 150%;
    width: 80%;
     margin-top: 8px;
-    margin-left: 55%;
+  
   
  }
  #formatada {
-  width: 80%;
+  width: 50%;
    position: absolute;
     color: hsl(225, 20%, 60%) ;
     font-family: Manrope;
     margin-left: -122px;
-    margin-top: 12px;
+    margin-top: 8px;
  }
 #texto5 {
-  font-size: 22pt;
+  font-size: 15pt;
   width: 80%;
 } 
 
@@ -213,8 +213,8 @@ position: absolute;
   padding: 2px;
   margin-left: 38%;
   margin-top: 10%;
-  width: 60px;
-  height: 25px;
+  width: 50px;
+  height: 30px;
   background-color: #dddddd;
   border-radius: 75px;
 }
@@ -244,22 +244,22 @@ position: absolute;
   background-color: #8ce196;
 }
 .switch--shadow:checked + label:after {
-  transform: translateX(36px);
+  transform: translateX(18px);
 }
 
 
 #textoB{
 
  
-margin-top: 150px;
+margin-top: 130px;
  color: hsl(225, 20%, 60%) ;
 
  font-family: Manrope;
 }
 
 #fm1 h4{
-  width: 100%;
-    margin-left: 0%;
+  width: 15%;
+    margin-left: 5%;
      font-size: 70%;
     position: absolute;
 
@@ -283,7 +283,7 @@ margin-top: 150px;
     position: absolute;
     margin-left: 60%;
     color: darkorange;
-    margin-top: 20px;
+    margin-top: 25px;
 }
 
 #lista {
