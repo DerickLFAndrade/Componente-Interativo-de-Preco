@@ -287,20 +287,18 @@ margin-top: 130px;
     margin-left: 60%;
     
 }
+
 #fm3 h4{
-  width: 15%;
-    position: absolute;
-    height: 18px;
-    
-   
-   border-radius: 10px;
-    background: rgb(235, 228, 228);
-    text-align: center;
-    font-size: 60%;
-    position: absolute;
-    margin-left: 60%;
-    color: darkorange;
-    margin-top: 25px;
+  position: absolute;
+  width: 90px;
+  height: 14px;
+  border-radius: 10px;
+  background: rgb(235, 228, 228);
+  text-align: center;
+  font-size: 60%;
+  margin-left: 60%;
+  color: darkorange;
+  margin-top: 28px;
 }
 
 #lista {
@@ -313,7 +311,7 @@ font-size: 70%;
 }
 #btn {
   font-size: 70%;
-  width: 40%;
+  width: 35%;
     position: absolute;
     font-family: Manrope; 
     background: hsl(227, 35%, 25%);
