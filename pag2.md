@@ -16,10 +16,13 @@
 
 </head>
 <body>
-    <div class="container" id="pag2">
+    <div class="container-fluid" id="pag2">
+        <h3>a</h3>
+        <h3 id="erro">[ERROR]</h3>
+       
         <h1>404</h1>
         <h2>PAGE NOT FOUND</h2>
-       <a href="index.html"><input type="button" name="bot" id="voltar" class="btn btn-dark" value="VOLTAR"></a>
+       <a href="index.html"><input type="button" name="bot" id="voltar" class="btn btn-dark" value="BACK PAGE"></a>
     </div>
 
 

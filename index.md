@@ -20,10 +20,10 @@
 <body>
 
 
-        <div class="container-fluid" id="containerPrincipal">
+        <div class="container" id="containerPrincipal">
            
             
-                <div class="container-fluid" id="containerSecundario">
+                <div class="container" id="containerSecundario">
                     <img src="logo.jpg" alt="logo" width="250px" id="logo">
 
             <div id="view">

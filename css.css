@@ -1,48 +1,65 @@
  @media screen and (max-width: 1157px ){
 
   body {
-    
+      margin: 0;
        background-color:  hsl(176, 38%, 91%) ;
        
  }
 #pag2 {
-  
+
+  border-radius: 20px;
   text-align: center;
-  background-color: darkgrey;
-  height: 300px;
+  background-color: rgb(10, 9, 9);
+  height: 100vh;
+  width: 100vw;
+  
  
  
 }
   #pag2 h1 {
-    padding: 30px;
-    margin-top: 100px;
-   color: rgb(0, 0, 0);
+  
+    margin-top: 15vh;
+   color: rgb(255, 255, 255);
   font-family: Manrope;
   font-size:40pt;
+}
+  #pag2 h2 {
+    padding: 20px;
+    
+   color: rgb(255, 255, 255);
+  font-family: Manrope;
+  font-size:20pt;
+}
+  #erro {
+    text-align: center;
+   margin-top: 50px;
+   color: rgb(255, 255, 255);
+  font-family: Manrope;
+  font-size:20pt;
 }
 
 #containerPrincipal {
   position: absolute;
-  width: 100%;
-  margin-left: 0%;
-  background-color: blue;
+  width: 100vw;
+  height: 100vh;
+  
 }
 #containerSecundario {
     position: absolute;
- 
-   margin-top: 5%;
-  
+     margin-top: 2.5%;
+     margin-left: 1%;
     border-radius: 20px;
-    width: 72%;
-    height: 600px;
+    width: 90vw;
+    height: 95vh;
     background-color: white;
-    margin-bottom: 0%;
+    background: cover;
+    
 }
  #logo {
-   margin-top: 2%;
+   margin-top: 1%;
   position: absolute;
-  width: 55%;
-  margin-left: 25%;
+  width: 35%;
+  margin-left: 30%;
   border-radius: 200px;
  
  }
@@ -180,8 +197,8 @@ margin-left: 20px;
   -webkit-appearance: none;
   appearance: none;
   border-radius: 35px;
-  width: 45px;
-  height: 45px;
+  width: 35px;
+  height: 35px;
    background: hsl(174, 86%, 45%);
   cursor: pointer;
 }
@@ -296,13 +313,13 @@ font-size: 70%;
 }
 #btn {
   font-size: 70%;
-  width: 50%;
+  width: 40%;
     position: absolute;
     font-family: Manrope; 
     background: hsl(227, 35%, 25%);
     color: rgb(243, 243, 243);
     text-align: center;
-    margin-left:25%;
+    margin-left:30%;
     margin-top: 20px;
     border-radius: 30px;
     height: 40px;
@@ -315,21 +332,37 @@ font-size: 70%;
      background-color:  hsl(176, 38%, 91%) ;
  }
 #pag2 {
-  
+
+  border-radius: 20px;
   text-align: center;
-  background-color: darkgrey;
-  height: 300px;
+  background-color: rgb(10, 9, 9);
+  height: 100vh;
+  width: 100vw;
+  
  
  
 }
   #pag2 h1 {
-    padding: 30px;
-    margin-top: 100px;
-   color: rgb(0, 0, 0);
+  
+    margin-top: 15vh;
+   color: rgb(255, 255, 255);
   font-family: Manrope;
   font-size:40pt;
 }
-
+  #pag2 h2 {
+    padding: 20px;
+    
+   color: rgb(255, 255, 255);
+  font-family: Manrope;
+  font-size:20pt;
+}
+  #erro {
+    text-align: center;
+   margin-top: 50px;
+   color: rgb(255, 255, 255);
+  font-family: Manrope;
+  font-size:20pt;
+}
  
 
 #containerSecundario {
